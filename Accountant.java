@@ -2,7 +2,7 @@ import java.io.*;
 
 class Accountant extends Manager {
 
-    private static int accHours = 0;
+    private static int accHours = 1;
     private static int accWage = 5000;  // ставка за месяц бухгалтера
     private static String fileName = "D:\\WeeklyReport.txt", fileName2 = "D:\\MonthlyReport.txt"; //путь где сохраняются отсчеты.
     private static FileWriter w, m;
